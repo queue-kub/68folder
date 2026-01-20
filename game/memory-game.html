@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เกมจับคู่ไพ่</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>เกมจับคู่ไพ่</h1>
+        <div class="game-info">
+            <div class="moves">จำนวนครั้งที่พลิก: <span id="move-count">0</span></div>
+            <div class="timer">เวลา: <span id="timer">0</span>s</div>
+        </div>
+        <div class="game-board" id="game-board"></div>
+        <button class="restart-btn" id="restart-btn">เริ่มเกมใหม่</button>
+        <div class="win-message" id="win-message">
+            <h2>ยินดีด้วย! คุณชนะ!</h2>
+            <p>จำนวนครั้งที่พลิก: <span id="final-moves">0</span></p>
+            <p>เวลาที่ใช้: <span id="final-time">0</span> วินาที</p>
+            <button id="play-again-btn">เล่นอีกครั้ง</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
